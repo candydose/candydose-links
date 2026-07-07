@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy Dose | كاندي دوز</title>
+    <!-- استدعاء خط جوجل (Cairo) عشان الكلام العربي يطلع بشيك -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* إعدادات الصفحة الأساسية */
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #ffffff; /* خلفية بيضاء */
+            color: #d81b60; /* اللون البينك الغامق بتاع البراند */
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        
+        .container {
+            padding: 20px;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        /* تنسيق اسم البراند */
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+
+        /* تنسيق السلوجان */
+        p.slogan {
+            font-size: 1.2rem;
+            margin-top: 0;
+            margin-bottom: 40px;
+            color: #555555;
+        }
+
+        /* تنسيق كلمة قريباً */
+        .coming-badge {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 40px;
+            border: 2px dashed #d81b60;
+            padding: 10px 25px;
+            display: inline-block;
+            border-radius: 15px;
+            background-color: #fdf0f4; /* بينك فاتح جداً خلف الكلمة */
+        }
+
+        /* تنسيق زراير السوشيال ميديا */
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: #ffffff; /* لون الكلام جوه الزرار أبيض */
+            background-color: #d81b60; /* لون الزرار بينك */
+            padding: 15px 30px;
+            border-radius: 30px; /* عشان يكون الزرار مدور وشيك */
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(216, 27, 96, 0.2);
+        }
+
+        /* تأثير لما تقف بالماوس على الزرار */
+        .links a:hover {
+            background-color: #a01447; /* يغمق شوية */
+            transform: translateY(-2px); /* يتحرك لفوق سنة بسيطة */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- اسم البراند -->
+        <h1>Candy Dose</h1>
+        
+        <!-- السلوجان -->
+        <p class="slogan">Gift and Mood - هدايا ومزاج</p>
+        
+        <!-- كلمة قريباً -->
+        <div class="coming-badge">
+            قريباً - Coming
+        </div>
+        
+        <!-- زراير اللينكات (هتحط لينكاتكم الحقيقية مكان علامة الشباك # بعدين) -->
+        <div class="links">
+            <a href="#">TikTok - تيك توك</a>
+            <a href="#">Facebook - فيسبوك</a>
+            <a href="#">WhatsApp - واتساب</a>
+        </div>
+    </div>
+
+</body>
+</html>
